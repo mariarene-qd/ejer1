@@ -23,3 +23,10 @@ print(df[df['Nota'] > 90])
 # 4. Sumar todas las notas
 suma_notas = df['Nota'].sum()
 print(f"\n📌 Suma total de las notas: {suma_notas}")
+
+# 5. Nota máxima y mínima
+nota_maxima = df['Nota'].max()
+nota_minima = df['Nota'].min()
+
+print(f"\nNota máxima: {nota_maxima}")
+print(f"Nota mínima: {nota_minima}")
